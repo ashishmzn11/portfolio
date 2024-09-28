@@ -1,0 +1,51 @@
+body{
+    /* background-color: rgba(0, 0, 0, 0.630); */
+    /* color: white; */
+}
+
+
+li{
+    font-size: 25px;
+}
+
+.header{
+    margin-left: 30px;
+}
+.m{
+    margin-right: 100px;
+    
+}
+.font{
+    font-size: 25px;
+}
+.mm{ 
+    /* background-color:rgba(0, 0, 0, 0.100); */
+    /* color: white; */
+  
+}
+h5{
+    font-size: 35px;
+}
+
+p{
+/* letter-spacing: 1px; */
+font-size: 20px;
+}
+.m2{
+    
+    padding-top: 400px;
+}
+.m3{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: rgba(0, 0, 0, 0.195);
+}
+.m4{
+    margin-top: 50px;
+    border: 2px solid red;
+    padding-left: 20px;
+    padding-right: 20px;
+    letter-spacing: 1px;
+    font-size: 25px;
+    
+}
