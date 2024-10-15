@@ -15,12 +15,12 @@
     <title>Document</title>
   </head>
   <body>
-    <div id="apiMessage">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
+    <div id="apiMessage" >
+    <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+      <div class="container-fluid ">
         <a class="navbar-brand" href="#"></a>
         <button
-          class="navbar-toggler"
+          class="navbar-toggler "
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarScroll"
@@ -30,7 +30,7 @@
         >
           <span class="navbar-toggler-icon"> </span>
         </button>
-        <div class="collapse navbar-collapse " id="navbarScroll">
+        <div class="collapse navbar-collapse " id="navbarScroll" class="fixed">
           <ul
             class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll "
             style="--bs-scroll-height: 100px"
@@ -76,45 +76,18 @@
                 Project
               </a>
               <ul class="dropdown-menu">
+                          
+                <li><a class="dropdown-item" href="#Soi">Social Media</a></li>
+                <li><a class="dropdown-item" href="#Eco">E-Commerce</a></li>
                 <li><a class="dropdown-item" href="#cal">Calculoter</a></li>
                 <li><a class="dropdown-item" href="#toc">Tic-Tac-Toe</a></li>
                 
               </ul>
             </li>
-            
-
-
-
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle header"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-              Media
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="https://www.linkedin.com/in/ashish011/">  <i class="bi bi-linkedin"></i></a></li>
-                <li><a class="dropdown-item" href="https://github.com/ashishmzn11"><i class="bi bi-github"></i></a></li>
-              
-              </ul>
-            </li>
-
-
-
           </ul>
           <form class="d-flex m" role="search">
-            <input
-              class="form-control me-2 font"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-success font" type="submit">
-              Search
-            </button>
+            <a class="dropdown-item" href="https://www.linkedin.com/in/ashish011/">  <i class="bi bi-linkedin"></i></a>
+            <a class="dropdown-item" href="https://github.com/ashishmzn11"><i class="bi bi-github"></i></a>
           </form>
         </div>
       </div>
@@ -123,25 +96,24 @@
     <!-- home page -->
      
     <div id="Home" class="row g-0 bg-body-secondary position-relative">
-      <div class="col-md-6 mb-md-0 p-md-4 mm ">
-        <img src="./img/1.png" class="w-100" alt="...">
+      <div class="col-md-6 mb-md-0 p-md-4">
+        <img src="./img/1.png" class="w-100" height="620px" alt="...">
       </div>
-      <div class="col-md-6 p-4 ps-md-0  mm">
+      <div class="col-md-6 p-4 ps-md-0">
         <h5 class="mt-0 m2">Ashish</h5>
         <p class="m1"> My name is Ashish, and I recently graduated from MS University with a degree in BCA in Computer Science. I am reaching out to seek your assistance in referring me for any suitable IT fresher positions within your organization.</p>
-        <a href="https://github.com/ashishmzn11" class="stretched-link">Learn More</a>
-      </div>
+          <a href="https://github.com/ashishmzn11"><button type="button" class="btn btn-primary">Learn more</button></a>
     </div>
 
 <!-- about page -->
 
-<div class="d-flex justify-content-center m3">
+<div class="d-flex  about-h">
     <h1>About me</h1>
 </div>
 
 <div id="about" class="row g-0 bg-body-secondary position-relative">
-  <div class="col-md-6 mb-md-0 p-md-4  ">
-    <img src="./img/11.jpg" class="w-100" alt="...">
+  <div class="col-md-6 p-4 ps-md-0 ">
+    <img src="./img/11.jpg" class="w-100 about" alt="...">
   </div>
   <div class="col-md-6 p-4 ps-md-0 ">
     <h5 class="mt-0 ">Ashish</h5>
@@ -153,25 +125,23 @@
       Best regards,
       ASHISH
       +91 8449920648 <a href="https://www.linkedin.com/in/ashish011/">linkedin</a></p>
-
-    <a href="https://github.com/ashishmzn11" class="stretched-link">Learn More</a>
+      <a href="https://github.com/ashishmzn11"><button type="button" class="btn btn-primary">Learn more</button></a>
   </div>
 </div>
-
-
 <!-- skill -->
-<div class="d-flex justify-content-center m3">
+<div class="d-flex about-h">
   <h1>Skill</h1>
 </div>
 
 <div id="react" class="card-group">
   <div class="card mm">
-    <img src="./img/2.jpg"  height="283vmin" class="card-img-top" alt="...">
+    <img src="./img/2.jpg"   class="card-img-top" alt="...">
     <div class="card-body ">
       <h5 class="card-title ">React</h5>
       <p class="card-text ">React, sometimes referred to as a frontend JavaScript framework, is a JavaScript library created by Facebook.
         React is a tool for building UI components.</p><br/>
-      <p class="card-text"><a href="https://www.w3schools.com/react/react_intro.asp">Learn More</a></p>
+
+      <p class="card-text"></p><a href="https://www.w3schools.com/react/react_intro.asp"><button type="button" class="btn btn-primary">Learn more</button></a></p>
     </div>
   </div>
   <div id="javascript" class="card mm">
@@ -181,15 +151,15 @@
       <p class="card-text">A JavaScript function is a block of JavaScript code, that can be executed when "called" for.
 
         For example, a function can be called when an event occurs, like when the user clicks a button.</p><br/>
-      <p class="card-text"><a href="https://www.w3schools.com/js/js_intro.asp">Learn More</a></p>
+      <p class="card-text"></p><a href="https://www.w3schools.com/js/js_intro.asp"><button type="button" class="btn btn-primary">Learn more</button></a></p>
     </div>
   </div>
   <div id="java" class="card mm">
-    <img src="./img/4.jpg" height="283vmin" class="card-img-top" alt="...">
+    <img src="./img/4.jpg" class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">Java</h5>
       <p class="card-text">Java was developed by James Gosling at Sun Microsystems Inc in May 1995 and later acquired by Oracle Corporation. It is a simple programming language. Java makes writing, compiling, and debugging programming easy</p>
-      <p class="card-text"><a href="https://www.geeksforgeeks.org/introduction-to-java/">Learn More</a></p>
+      <p class="card-text"></p><a href="https://www.geeksforgeeks.org/introduction-to-java/"><button type="button" class="btn btn-primary">Learn more</button></a></p>
     </div>
   </div>
 </div>
@@ -200,7 +170,7 @@
     <div class="card-body ">
       <h5 class="card-title ">C programming</h5>
       <p class="card-text ">C is a general-purpose programming language created by Dennis Ritchie at the Bell Laboratories in 1972.</p><br/>
-      <p class="card-text"><a href="https://www.w3schools.com/c/c_intro.php">Learn more</a></p>
+      <p class="card-text"></p><a href="https://www.w3schools.com/c/c_intro.php"><button type="button" class="btn btn-primary">Learn more</button></a></p>
     </div>
   </div>
   <div id="C++" class="card mm">
@@ -208,15 +178,15 @@
     <div class="card-body">
       <h5 class="card-title">C++ Programming</h5>
       <p class="card-text">C++ is a cross-platform language that can be used to create high-performance applications.</p><br/><br/>
-      <p class="card-text"><a href="https://www.w3schools.com/cpp/cpp_intro.asp">Learn More</a></p>
+      <p class="card-text"></p><a href="https://www.w3schools.com/cpp/cpp_intro.asp"><button type="button" class="btn btn-primary">Learn more</button></a></p>
     </div>
   </div>
-  <div id="bootstrap" class="card java">
-    <img src="./img/7.jpg" height="282vmin" class="card-img-top" alt="...">
+  <div id="bootstrap" class="card java mm">
+    <img src="./img/7.jpg"  class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">Bootstrao</h5>
       <p class="card-text">Powerful, extensible, and feature-packed frontend toolkit. Build and customize with Sass, utilize prebuilt grid system and components, and bring projects to life with powerful JavaScript plugins..</p>
-      <p class="card-text"><a href="https://getbootstrap.com/">Learn More</a></p>
+      <p class="card-text"></p><a href="https://getbootstrap.com/"><button type="button" class="btn btn-primary">Learn more</button></a></p>
     </div>
   </div>
 </div>
@@ -224,65 +194,49 @@
 
 <!-- Project -->
 
-<div class="d-flex justify-content-center m3">
+<div class="d-flex  about-h " id="Service">
   <h1>Project</h1>
 </div>
 
-<div id="cal" class="card-group">
+<div id="Soi" class="card-group project-1">
   <div class="card mm">
-    <img src="./img/8.jpg " height="282vmin"  height="283vmin" class="card-img-top" alt="...">
+    <a href="https://github.com/ashishmzn11/social-media"><img src="./img/13.jpeg "  class="card-img-top" alt="..."></a>
+  
+    <div class="card-body ">
+      <h5 class="card-title ">Social Media<h5>
+      <p class="card-text ">
+        It has transformed communication and networking, allowing people to share information, opinions, images, and videos instantly. Popular platforms like Facebook, Twitter, Instagram, and LinkedIn offer diverse ways to interact, ranging from personal updates to professional networking</p>
+    </div>
+  </div>
+  <div id="Eco" class="card mm">
+    <a href="https://github.com/ashishmzn11/shoplane1"><img src="./img/12.jpeg" class="card-img-top" alt="..."></a>
+    <div class="card-body">
+      <h5 class="card-title">E-Commerce</h5>
+      <p class="card-text">E-commerce, or electronic commerce, refers to the buying and selling of goods and services over the internet. It allows businesses to operate online, reaching a global audience 24/7 without the need for physical stores. E-commerce platforms enable users to browse products</p>
+      
+    </div>
+  </div>
+</div>
+
+
+<div id="cal" class="card-group project-1">
+  <div class="card mm">
+   <a href="https://ashish2401calculator.netlify.app"> <img src="./img/8.jpg "  class="card-img-top" alt="..."></a>
     <div class="card-body ">
       <h5 class="card-title ">Calculator<h5>
       <p class="card-text ">
         A calculator is a device or software that performs mathematical operations like addition, subtraction, multiplication, and division. It simplifies complex calculations for various tasks, including scientific and financial uses.</p>
-    
     </div>
   </div>
   <div id="toc" class="card mm">
-    <img src="./img/9.jpg" class="card-img-top" alt="...">
+    <a href="https://ashish011game.netlify.app"><img src="./img/9.jpg" class="card-img-top" alt="..."></a>
     <div class="card-body">
       <h5 class="card-title">Tic-tac-toe</h5>
       <p class="card-text">Tic-tac-toe is a two-player game where players take turns marking X or O in a 3x3 grid. The goal is to form a horizontal, vertical, or diagonal line of three marks.</p>
       
     </div>
   </div>
-  <div class="card mm">
-    <img src="./img/4.jpg" height="283vmin" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
 </div>
-
-<div class="card-group">
-  <div class="card mm">
-    <img src="./img/5.jpg" class="card-img-top" alt="...">
-    <div class="card-body ">
-      <h5 class="card-title ">Card title</h5>
-      <p class="card-text ">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
-  <div class="card mm">
-    <img src="./img/6.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
-  <div class="card java">
-    <img src="./img/7.jpg" height="282vmin" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
-</div>
-
 
     <!-- Footer Section -->
     <footer class="bg-dark text-white pt-4">
@@ -296,20 +250,19 @@
               <!-- Footer Column 2 -->
               <div class="col-md-4">
                   <h5>Quick Links</h5>
-                  <ul class="list-unstyled">
-                      <li><a href="#" class="text-white">Home</a></li>
-                      <li><a href="#" class="text-white">Services</a></li>
-                      <li><a href="#" class="text-white">Contact</a></li>
-                  </ul>
+                  <form class="d-flex m" role="search">
+                    <a class="nav-link active header" href="#Home">Home</a>
+                    <a class="nav-link header" href="#about">About</a>
+                    <a class="nav-link header" href="#Service">Service</a>
+                  </form>
               </div>
               <!-- Footer Column 3 -->
               <div class="col-md-4">
                   <h5>Contact Us</h5>
-                  <p>Email: ashishmzn11@gmail.com</p>
-                  <p><i class="bi bi-linkedin"></i></p>
-                  <p><i class="bi bi-github"></i></p>
-                  <p><a></a></p>
-                  <p>Phone:<a href="8449920648">8449920648essse</a> </p>
+                  <form class="d-flex m" role="search">
+                    <a class="dropdown-item" href="https://www.linkedin.com/in/ashish011/">  <i class="bi bi-linkedin"></i></a>
+                    <a class="dropdown-item" href="https://github.com/ashishmzn11"><i class="bi bi-github"></i></a>
+                  </form>
               </div>
           </div>
       </div>
